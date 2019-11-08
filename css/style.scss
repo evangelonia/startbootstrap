@@ -1,9 +1,60 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import './variables';
 
-h1 {
-    color: $a;
+.navbar-nav .nav-item .nav-link{
+    color: $white-color;  
 }
+
+.navbar .navbar-brand {
+    color: $white-color;
+}
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+.header .container h1 {
+    background-image: url(../image/6.jpg);
+    height: 532px;
+    color: $white-color;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 83px;
+    line-height: 151%;
+    text-align: center;
+    letter-spacing: -0.025em;
+
+   
+}
+
+.light{
+    $background-color: white;
+}
+
 p {
-    border: 1px solid $a;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 148.2%;
+    $color: $dark-color;
 }
+
+.button_round {
+    display: block;
+    margin: 12px;
+    width: 52px;
+    height: 52px;
+    background: #2C3E50;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 45px;
+    color: #FFF;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
